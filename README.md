@@ -11,16 +11,13 @@ npm install rn-animated-pie-chart
 ## Usage
 
 ```js
-import { multiply } from 'rn-animated-pie-chart';
+import { PieChart, AnimatedPieChart } from 'rn-animated-pie-chart';
 
 // ...
 
-const result = await multiply(3, 7);
+    <PieChart data={[10, 20]} />
+    <AnimatedPieChart data={[10, 20, 30]} />
 ```
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
 ## License
 

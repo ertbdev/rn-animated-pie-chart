@@ -1,0 +1,21 @@
+tsconfig.json
+src
+
+# Logs
+*.log
+npm-debug.log
+
+# Dependency directory
+node_modules
+
+# Runtime data
+tmp
+
+#examples
+examples
+
+# test files
+*.tgz
+
+.gitignore
+.eslintignore

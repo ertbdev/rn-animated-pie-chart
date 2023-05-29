@@ -1,9 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "rn-animated-pie-chart": ["./src/index"]
-    },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
@@ -24,5 +20,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "examples"]
+  "extends": "@tsconfig/react-native/tsconfig.json"
 }
