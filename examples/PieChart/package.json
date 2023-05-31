@@ -14,7 +14,7 @@
     "react-native": "0.71.8",
     "react-native-reanimated": "^3.1.0",
     "react-native-svg": "^13.9.0",
-    "rn-animated-pie-chart": "file:../../rn-animated-pie-chart-0.1.1.tgz"
+    "rn-animated-pie-chart": "^0.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
